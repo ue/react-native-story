@@ -1,0 +1,81 @@
+{
+  "name": "react-native-story",
+  "description": "Instagram story for react-native",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive tests/**/*.test.js",
+    "test:watch": "npm test -- --watch",
+    "test:cover": "istanbul cover -x *.test.js _mocha -- -R spec --require react-native-mock/mock.js --compilers js:babel-core/register 'tests/**/*.test.js'",
+    "test:report": "cat ./coverage/lcov.info | codecov && rm -rf ./coverage",
+    "lint": "eslint src/**/*.js tests/**/*.js",
+    "lintfix": "eslint --fix src/**/*.js tests/**/*.js",
+    "format": "prettier-eslint --write src/**/*.js tests/**/*.js",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ue/react-native-story"
+  },
+  "keywords": [
+    "react-native",
+    "instagram",
+    "story",
+    "snapchat"
+  ],
+  "author": "Ugur ERDAL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.comue/react-native-story/issues"
+  },
+  "homepage": "https://github.com/ue/react-native-story",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-native": ">=0.40.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "chai": "^4.0.2",
+    "codecov.io": "^0.1.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "enzyme": "^2.8.2",
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.13.4",
+    "istanbul": "^1.1.0-alpha.1",
+    "lint-staged": "^4.0.0",
+    "mocha": "^5.2.0",
+    "prettier-eslint-cli": "^4.1.1",
+    "prop-types": "^15.5.10",
+    "react-dom": "^15.5.4",
+    "react-native-mock": "^0.3.1",
+    "semantic-release": "^15.13.3"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ],
+    "tests/**/*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "version": "0.1.0",
+  "directories": {
+    "test": "tests"
+  }
+}
