@@ -3,13 +3,14 @@
 A react native component for toast message
 
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/ue/react-native-story/master/LICENSE)
+[ ![NPM version](http://img.shields.io/npm/v/react-native-story.svg?style=flat)](https://www.npmjs.com/package/react-native-story)
 
 ## Installation
 
 - 1.Run `npm i react-native-story --save` or `yarn add react-native-story`
 - 2.`import Story from 'react-native-story'`
 
-![Screenshots](https://media.giphy.com/media/8hYcFmrQgOJVK8FHRB/giphy.gif)
+![Screenshots](https://media.giphy.com/media/1isLmLIAWTZVdcRNOw/giphy.gif)
 
 ## Getting started
 
@@ -21,12 +22,6 @@ Inside your component's render method, use Story:
 
 ```javascript
 const stories = [
-  {
-    id: "6",
-    source: require("../../../assets/stories/6.jpg"),
-    user: "Ugur Erdal",
-    avatar: require("../../../assets/avatars/ugur.png")
-  },
   {
     id: "4",
     source: require("../../../assets/stories/4.jpg"),
@@ -51,27 +46,22 @@ const stories = [
     user: "Cenk Gun",
     avatar: require("../../../assets/avatars/cenk.png")
   },
-  {
-    id: "1",
-    source: require("../../../assets/stories/1.jpg"),
-    user: "Ayse"
-  }
 ];
 
  render() {
-		return (
-			<Story
-				unPressedBorderColor="#e95950"
-				pressedBorderColor="#ebebeb"
-				stories={stories}
-				footerComponent={
-					<TextInput
-						placeholder="Send message"
-						placeholderTextColor="white"
-						style={styles.footerInput
-					/>
-				}
-			/>
+	return (
+		<Story
+			unPressedBorderColor="#e95950"
+			pressedBorderColor="#ebebeb"
+			stories={stories}
+			footerComponent={
+				<TextInput
+					placeholder="Send message"
+					placeholderTextColor="white"
+					style={styles.footerInput
+				/>
+			}
+		/>
  }
 
 ```
