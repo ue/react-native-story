@@ -1,6 +1,6 @@
 # react-native-story
 
-A react native component for toast message
+A react native component instagram stories
 
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/ue/react-native-story/master/LICENSE)
 [ ![NPM version](http://img.shields.io/npm/v/react-native-story.svg?style=flat)](https://www.npmjs.com/package/react-native-story)
@@ -10,7 +10,7 @@ A react native component for toast message
 - 1.Run `npm i react-native-story --save` or `yarn add react-native-story`
 - 2.`import Story from 'react-native-story'`
 
-![Screenshots](https://media.giphy.com/media/1isLmLIAWTZVdcRNOw/giphy.gif)
+![Screenshots](https://media.giphy.com/media/8hYcFmrQgOJVK8FHRB/giphy.gif)
 
 ## Getting started
 
