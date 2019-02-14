@@ -10,7 +10,7 @@ A react native component instagram stories
 - 1.Run `npm i react-native-story --save` or `yarn add react-native-story`
 - 2.`import Story from 'react-native-story'`
 
-![Screenshots](https://media.giphy.com/media/8hYcFmrQgOJVK8FHRB/giphy.gif)
+![Screenshots](https://media.giphy.com/media/f9RH5B7kYeFvQFhRq7/giphy.gif)
 
 ## Getting started
 
