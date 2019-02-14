@@ -71,6 +71,7 @@ const stories = [
 | Props                | Type   | Optional | Default   | Description                            |
 | -------------------- | ------ | -------- | --------- | -------------------------------------- |
 | id                   | string | required | -         | Json story data must have this         |
+| stories              | object | required | -         | As above example        |
 | unPressedBorderColor | string | true     | "#e95950" | Unpressed Border color                 |
 | pressedBorderColor   | string | true     | "#ebebeb" | Pressed border color                   |
 | footerComponent      | jsx    | true     | -         | Bottom of the stories footer component |
