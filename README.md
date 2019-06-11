@@ -76,4 +76,9 @@ const stories = [
 | pressedBorderColor   | string | true     | "#ebebeb" | Pressed border color                   |
 | footerComponent      | jsx    | true     | -         | Bottom of the stories footer component |
 
+
+Thanx for the help 
+- [@wcandillon](https://github.com/wcandillon) 
+https://snack.expo.io/@wcandillon/instagram-stories
+
 **MIT Licensed UE**
