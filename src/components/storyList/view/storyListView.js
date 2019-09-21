@@ -25,6 +25,7 @@ class StoryListView extends Component {
     return (
       <View style={styles.container}>
         <FlatList
+          keyExtractor={(item,index)=>index.toString()}
           data={stories}
           horizontal
           renderItem={({ item, index }) => (
