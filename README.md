@@ -58,7 +58,6 @@ const stories = [
 				<TextInput
 					placeholder="Send message"
 					placeholderTextColor="white"
-					style={styles.footerInput}
 				/>
 			}
 		/>
