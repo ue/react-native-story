@@ -62,7 +62,6 @@ const stories = [
 			}
 		/>
  }
-
 ```
 
 ## API
