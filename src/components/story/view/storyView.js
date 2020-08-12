@@ -63,6 +63,7 @@ class StoryListView extends Component {
           swipeToClose
           swipeArea={250}
           backButtonClose
+          coverScreen={true}
         >
           <Stories
             footerComponent={footerComponent}
