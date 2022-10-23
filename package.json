@@ -62,7 +62,7 @@
     "prop-types": "^15.5.10",
     "react-dom": "^15.5.4",
     "react-native-mock": "^0.3.1",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^19.0.5"
   },
   "lint-staged": {
     "src/**/*.js": [
