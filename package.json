@@ -57,7 +57,7 @@
     "husky": "^0.13.4",
     "istanbul": "^1.1.0-alpha.1",
     "lint-staged": "^4.0.0",
-    "mocha": "^5.2.0",
+    "mocha": "^10.2.0",
     "prettier-eslint-cli": "^4.1.1",
     "prop-types": "^15.5.10",
     "react-dom": "^15.5.4",
